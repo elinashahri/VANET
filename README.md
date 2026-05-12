@@ -1,21 +1,13 @@
-# Road & Network-aware VANET Traffic Forecasting — Paper Reproduction (RF–GRU)
-
+# Road & Network-aware VANET Traffic Forecasting — RF-GRU
 This repository contains a **paper reproduction / implementation study** of a VANET traffic forecasting approach that combines **road traffic parameters** and **vehicular network features** using a multi-phase pipeline and a hybrid ML/DL model (RF + GRU).
 
 The goal of this project is to reproduce the **reported performance trends** in the reference study by implementing the main stages of the pipeline and evaluating results with standard classification/regression metrics.
 
----
-
-## Reference Paper
-**Network Traffic Prediction Model Considering Road Traffic Parameters Using Artificial Intelligence Methods in VANET**  
-(IEEE Access, 2022)
-
-> Note: This project is a *paper reproduction / implementation study*. The paper is not authored by me.
 
 ---
 
 ## Project Overview
-The implementation follows a **three-phase pipeline** inspired by the reference paper:
+The implementation follows a **three-phase pipeline** inspired by the paper:
 
 ### Phase 1 — Network Traffic Classification (V2R)
 - Preprocessing and cleaning of V2R dataset  
